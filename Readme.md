@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [E1759.cs](./CS/WindowsApplication1/E1759.cs) (VB: [E1759.vb](./VB/WindowsApplication1/E1759.vb))
+* [layout.xml](./CS/WindowsApplication1/layout.xml) (VB: [layout.xml](./VB/WindowsApplication1/layout.xml))
+* [Program.cs](./CS/WindowsApplication1/Program.cs) (VB: [Program.vb](./VB/WindowsApplication1/Program.vb))
+<!-- default file list end -->
 # How to restore the Auto Filter Row from an active filter after restoring the layout
 
 
