@@ -34,9 +34,9 @@ Namespace WindowsApplication1
             form.Controls.Add(grid)
             grid.DataSource = GetData()
             grid.ForceInitialize()
-            Dim gridView As GridView = CType(grid.DefaultView, GridView)
-            gridView.RestoreLayoutFromStream(GetType(E1759).Assembly.GetManifestResourceStream("layout.xml"))
-            'gridView.GuessAutoFilterRowValuesFromFilter();
+            Dim view As GridView = CType(grid.DefaultView, GridView)
+            view.RestoreLayoutFromStream(GetType(E1759).Assembly.GetManifestResourceStream("layout.xml"))
+            'view.GuessAutoFilterRowValuesFromFilter()
         End Sub
     End Class
 End Namespace
